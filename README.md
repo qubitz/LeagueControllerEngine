@@ -36,6 +36,8 @@ git clone git@github.com:qubytes/leaguecontrollerengine.git
   **Action**: *Cursor movement for quick point of interest locations (i.e. move the mouse)*  
   **Relase**: *Cursor resets to center of screen*
   
+### Buttons ###
+
 * **Triggers**
 
   **Left Trigger**: *Left mouse click*  
