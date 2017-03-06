@@ -1,4 +1,4 @@
-# LeagueControllerEngine #
+# League Controller Engine #
 
 A prototype for visualizing how League of Legends could be played with a controller
 
