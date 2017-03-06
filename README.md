@@ -23,6 +23,8 @@ git clone git@github.com:qubytes/leaguecontrollerengine.git
 5. **Click** Play
 
    Located at top-middle as green arrow
+   
+6. **Move** right stick around
 
 ## Control Scheme ##
 
