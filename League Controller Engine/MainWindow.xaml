@@ -1,0 +1,39 @@
+﻿<Window posX:Class="League_Controller_Engine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:posX="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:League_Controller_Engine"
+        mc:Ignorable="d"
+        Title="League Controller Engine" Height="350" Width="525" ResizeMode="CanMinimize">
+    <Grid>
+        <!--Face Button Binding Textboxes-->
+        <TextBox posX:Name="aButtonBindingTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="64,82,0,0" TextWrapping="Wrap" Text="Q" Height="20" Width="20" TextAlignment="Center"/>
+        <TextBox posX:Name="bButtonBindingTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="89,57,0,0" TextWrapping="Wrap" Text="W" Height="20" Width="20" TextAlignment="Center"/>
+        <TextBox posX:Name="xButtonBindingTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,57,0,0" TextWrapping="Wrap" Text="E" Height="20" Width="20" TextAlignment="Center"/>
+        <TextBox posX:Name="yButtonBindingTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="64,32,0,0" TextWrapping="Wrap" Text="R" Height="20" Width="20" TextAlignment="Center"/>
+
+        <!--Directional Button Binding Textboxes-->
+        <TextBox posX:Name="upButtonBindingTextBox"    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="62,191,0,0" TextWrapping="Wrap" Text="J" Height="20" Width="20" TextAlignment="Center"/>
+        <TextBox posX:Name="rightButtonBindingTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="87,166,0,0" TextWrapping="Wrap" Text="K" Height="20" Width="20" TextAlignment="Center"/>
+        <TextBox posX:Name="downButtonBindingTextBox"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,166,0,0" TextWrapping="Wrap" Text="L" Height="20" Width="20" TextAlignment="Center"/>
+        <TextBox posX:Name="leftButtonBindingTextBox"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="62,141,0,0" TextWrapping="Wrap" Text=";" Height="20" Width="20" TextAlignment="Center"/>
+
+        <!--Menu Button Binding Textboxes-->
+        <TextBox posX:Name="backButtonBindingTextBox"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,254,0,0" TextWrapping="Wrap" Text="Tab" Height="20" Width="30" TextAlignment="Center"/>
+        <TextBox posX:Name="startButtonBindingTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="89,254,0,0" TextWrapping="Wrap" Text="Esc" Height="20" Width="30" TextAlignment="Center"/>
+
+        <!--Movement Distance Setting Components-->
+        <Label   posX:Name="moveDistOutputLabel"    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="290,42,0,0" Content="Movement distance:" />
+        <TextBox posX:Name="moveDistSettingTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="407,46,0,0" TextWrapping="Wrap" Text="100" Height="20" Width="30" TextAlignment="Center"/>
+        <Label   posX:Name="moveDistPxLabel"        HorizontalAlignment="Left" VerticalAlignment="Top" Margin="437,42,0,0" Content="px"/>
+
+        <!--Pointer Speed Setting Components-->
+        <Label   posX:Name="pointSpeedOutputLabel"    HorizontalAlignment="Left" VerticalAlignment="Top" Margin="311,73,0,0" Content="Pointer Speed:" />
+        <TextBox posX:Name="pointSpeedSettingTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="407,77,0,0" TextWrapping="Wrap" Text="100" Height="20" Width="30" TextAlignment="Center"/>
+        <Label   posX:Name="pointSpeedScaleLabel"     HorizontalAlignment="Left" VerticalAlignment="Top" Margin="437,73,0,0" Content="%"/>
+
+        <!--Precision Movement Setting Components-->
+        <CheckBox posX:Name="precisionMoveCheckBox"    HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="312,104,0,0" Content="Precison Movement"/>
+    </Grid>
+</Window>
